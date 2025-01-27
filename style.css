@@ -1,0 +1,355 @@
+*{margin: 0px;
+  font-family:Arial, Helvetica, sans-serif;
+border:border-box;}
+a{ text-decoration: none;}
+
+
+header{position: sticky;}
+/* Navbar 1 ------------------------------- */
+.navbar{height: 60px;
+  background-color: #000000;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: sticky;
+
+}
+
+.nav-logo{
+    height: 60px;
+ width: 200px;
+}
+.logo{background-image: url("WhatsApp\ Image\ 2025-01-21\ at\ 12.15.45\ \(1\).jpeg") ;
+background-size: cover;
+height: 100%;
+width: 100px;
+}
+
+.border{border:2px solid transparent}
+
+.border:hover{border: 1px solid white;
+}
+/* box2---------------------- */
+
+.nav-location{align-items: center;}
+.location{display: flex;}
+.location-icon{font-size: 20px;}
+.location-text{font-size: 1rem; margin-left: 5px;}
+
+
+
+/* box3------------- */
+
+
+
+.nav-search{ width: 500px; height: 45px;
+            display: flex; justify-content: space-evenly;}
+.search-select{height: 45px;
+  border: none;
+  background-color: #e6e6e6;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius:4px;
+}
+.search-input{
+  width:100%;
+  border: none;
+}
+ 
+#search-icon{height: 45px;
+  width: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-color: #f19603;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.navbar-first{display: flex;
+  font-size: 0.7rem;
+
+}
+
+
+.navbar-second{display: flex;
+  font-size: 1rem;
+ font-weight: 700px;
+}
+
+/* Navbar2---------------------- */
+
+
+.navbar2{height: 30px;
+  background-color: #222f3d;
+color: white;
+display: flex;
+ align-items: center; 
+ justify-content: flex-start; 
+
+}
+
+
+.navbar2-div1{display: flex;
+margin-left: 20px;}
+  .navbar2-div1-icon{font-size: 20px; } 
+ .navbar2-div1-text{display: flex;
+  font-size: 1.1rem;
+  margin-left: 5px;
+  font-weight: 600px;
+} 
+
+.navbar2-text{font-size: 1.1rem;
+           font-weight: 600px;
+          margin-left: 20px;}
+
+
+  .navbar2-ops{height: 30px;
+  width: 70%;
+display: flex;
+align-items: center;
+justify-items: space-between;
+text-align: left;}
+
+ /* Hero Section---------------------- */ 
+
+.hero{height: 400px;
+  background-image: url("hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  
+}
+
+.hero-text{text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: white;
+height: 40px;
+width: 85%;
+margin-bottom:20px;}
+
+
+
+
+ /* Shop section---------------------------- */
+ .shop-section{display:flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+background-color:#e2e7e6;}
+
+ .box {height: 400px;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  background-color: white;
+    /* padding-top: 10px;
+ 
+    padding-bottom: 15px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: width 0.5s, box-shadow 0.5s; /* Add transition effect */
+  }
+
+  .box h2{padding-bottom: 20px;
+  }
+
+  .box p{padding-top: 10px;}
+  .box a{font-family: arial; font-weight: 400px; font-size: 1.07rem;}
+
+  .box:hover {
+    width: 24%; /* 2Change width on hover */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Correct box-shadow */
+  }
+  
+  .box-content{margin-left: 10%;
+  margin-right:10%;
+  margin-bottom: 20%;
+height: 70%;}
+.box-image{
+    height: 100%;
+    width: 280px;
+    background-size: cover;
+}
+
+
+
+
+
+  /* foot panael1 */
+
+    footer{margin-top: 15px;}
+
+  .footer-panel-1{display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37475a;
+    color: white;
+    font-size: 0.85rem;
+    height: 40px;
+  }
+
+  .footer-panel-1 a {color: white;}
+
+  .footer-panel-2{display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    height: 30px;
+    height: 500px;
+    padding-top:60px ;
+  }
+
+ul a{display: block;}
+  
+/* Responsive Design */
+/* @media (max-width: 1200px) {
+    .nav-search {
+        width: 400px;
+    }
+    .shop-section {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 992px) { 
+    .nav-search {
+        width: 300px;
+    }
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 80%;
+        margin: 10px ;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-search {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .navbar2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-search {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .navbar2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 100%;
+        margin: 10px    ;
+    }
+    .hero {
+        
+        height: 300px;
+    }
+    .hero-text {
+        width: 95%;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-search {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .navbar2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        transition: width 0.5s; 
+        width: 100%;
+        margin: 10px 0;
+    }
+    .hero {
+        height: 250px;
+    }
+    .hero-text {
+        width: 95%;
+    }
+  
+}
+
+@media (max-width: 320px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-search {
+        width: 100%;
+        margin: 10px ;
+    }
+    .navbar2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .hero {
+        height: 200px;
+    }
+    .hero-text {
+        width: 95%;
+    }
+}
+
+
+
+ */
